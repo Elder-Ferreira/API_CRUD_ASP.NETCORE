@@ -27,3 +27,12 @@ C:\Workspace\API_ASP.NET\obj\Debug\net5.0\API_ASP.NET.dll
 C:\Workspace\API_ASP.NET\obj\Debug\net5.0\ref\API_ASP.NET.dll
 C:\Workspace\API_ASP.NET\obj\Debug\net5.0\API_ASP.NET.pdb
 C:\Workspace\API_ASP.NET\obj\Debug\net5.0\API_ASP.NET.genruntimeconfig.cache
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Humanizer.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\MySqlConnector.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Workspace\API_ASP.NET\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

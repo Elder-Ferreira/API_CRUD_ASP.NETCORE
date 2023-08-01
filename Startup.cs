@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using api.Data;
+using API_ASP.NET.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace API_ASP.NET
