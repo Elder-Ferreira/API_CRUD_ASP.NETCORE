@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using api.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace API_ASP.NET
 {
@@ -28,6 +30,12 @@ namespace API_ASP.NET
         {
 
             services.AddControllers();
+
+            // Início conexão com o banco de dados   
+            string stringDeConexao = Configuration.GetConnectionString("conexaoMySQL");
+            services.AddDbContext<DataContext>(opt => opt.UseMySql(stringDeConexao, ServerVersion.AutoDetect(stringDeConexao)));
+            // Término da conexão com o banco de dados
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API_ASP.NET", Version = "v1" });
